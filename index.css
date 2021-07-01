@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+#grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black
+}
+.game-cell {
+    background-color: rgb(130, 186, 12);
+    width: 20px;
+    height: 20px;
+}
+.snake {
+    background-color: rgb(27, 42, 15);
+}
+.apple {
+    background-color: red;
+}
